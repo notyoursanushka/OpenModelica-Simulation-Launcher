@@ -1,20 +1,5 @@
-# Virtual environment
 venv/
-env/
-.env/
-
-# Python cache
 __pycache__/
 *.pyc
-*.pyo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Large DLL files
-model/*.dll
+*.dll
+*.exe
