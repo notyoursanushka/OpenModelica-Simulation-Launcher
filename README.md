@@ -88,7 +88,7 @@ OpenModelica_App/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/OpenModelica-Simulation-Launcher.git
+git clone https://github.com/notyoursanushka/OpenModelica-Simulation-Launcher
 cd OpenModelica-Simulation-Launcher
 ```
 
@@ -152,6 +152,20 @@ tests/test_validators.py::TestValidateTimes::test_float_inputs         PASSED
 - The application handles this gracefully and displays the 
   simulation output log regardless.
 
+## Model Executable Note
+The compiled `.exe` and `.dll` files are not included
+in this repository due to GitHub's 100MB file size limit.
+
+To get them:
+1. Install OpenModelica from https://openmodelica.org
+2. Load the `NonInteractingTanks` package in OMEdit
+3. Simulate `TwoConnectedTanks` model
+4. Copy output files from:
+   C:\Users\<you>\AppData\Local\Temp\OpenModelica\OMEdit\
+   into the `model/` folder
+5. Copy DLL files from:
+   C:\Program Files\OpenModelica1.26.3-64bit\bin\
+   into the `model/` folder
 ---
 
 ## Technologies Used
